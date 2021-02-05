@@ -1,0 +1,16 @@
+.jumbotron {
+
+     background-size: cover; 
+     height: 400px;
+
+}
+
+.portfolio-me a {
+     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-weight: 600;
+     color: #a261cd98;
+     font-size: 13px;
+     letter-spacing: 2.5px;
+     -webkit-text-transform: uppercase;
+     text-transform: uppercase;
+ }
