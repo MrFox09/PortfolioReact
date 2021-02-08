@@ -59,6 +59,48 @@
       "github_link": "https://github.com/MrFox09/techdegree-project5/",
       "image_urls": ["./pictures/Public_landing.jpg","../pictures/Public_1250x550px1.jpg","../pictures/Public_1250x550px2.jpg","../pictures/Public_1250x550px3.jpg"]
 
-    }
+    },
+    {
+
+      "id": 5,
+      "project_name": "Static Node.js and Express Site",
+      "description": "A portfolio web site made with node.js and express, using Pug to render the views, a server side program.",
+      "technologies": ["HTML", "CSS", "JavaScript","Express","Node.js","Pug"],
+      "live_link": "https://helloportfolio12579.herokuapp.com/",
+      "github_link": "https://github.com/MrFox09/techdegree-project6/",
+      "image_urls": ["./pictures/staticNode_landing.jpg","../pictures/staticNode_1250x550px1.jpg","../pictures/staticNode_1250x550px2.jpg","../pictures/staticNode_1250x550px3.jpg"]
+  
+    },
+    {
+    "id": 6,
+    "project_name": "React Gallery App",
+    "description": "Used the very popular and in-demand React library to create an image gallery app.",
+    "technologies": ["HTML", "CSS", "JavaScript","React","create-react-app-cli"],
+    "live_link": "https://galleryapp1.herokuapp.com/",
+    "github_link": "https://github.com/MrFox09/techdegree-project7/",
+    "image_urls": ["./pictures/galleryApp_landing.jpg","../pictures/galleryApp_1250x550px1.jpg","../pictures/galleryApp_1250x550px2.jpg","../pictures/galleryApp_1250x550px3.jpg"]
+
+    },
+
+    {
+      "id": 7,
+      "project_name": "SQL Library Manager",
+      "description": "This project is a fictional Library Manager to help manage the collection of books. ",
+      "technologies": ["HTML", "CSS", "JavaScript","Node.js","Express", "Pug","ORM Sequelize"],
+      "live_link": "https://sqllibrarymanager1.herokuapp.com/",
+      "github_link": "https://github.com/MrFox09/techdegree-project8",
+      "image_urls": ["./pictures/sqlLibrary_landing.jpg","../pictures/sqlLibrary_1250x550px1.jpg","../pictures/sqlLibrary_1250x550px2.jpg","../pictures/sqlLibrary_1250x550px3.jpg"]
+  
+      },
+      {
+      "id": 8,
+      "project_name": "Full Stack App with React and a REST API",
+      "description": "A REST API using Express. The API will provide a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, as well as adding, updating and deleting courses in the database. Used React to create a client for the school database REST API. Please don't use real email and password for the demo!  ",
+      "technologies": ["HTML", "CSS", "JavaScript","Node.js","Express", "React","ORM Sequelize", "Cookie-js library"],
+      "live_link": "https://schoolclient1.herokuapp.com/",
+      "github_link": "https://github.com/MrFox09/techdegree-project10",
+      "image_urls": ["./pictures/courses_landing.jpg","../pictures/courses_1250x550px1.jpg","../pictures/courses_1250x550px2.jpg","../pictures/courses_1250x550px3.jpg"]
+  
+      }
   ]
 }

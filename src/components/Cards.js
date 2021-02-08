@@ -15,7 +15,7 @@ function Cards (props) {
         <Col lg={4} className = "cardContainer" >
             <Card
                 bg= 'dark'
-                key={props.key}
+                key={props.id+1}
                 text='white'
                 style={{ width: '20rem' }}
                 className="mb-3"
@@ -24,7 +24,7 @@ function Cards (props) {
                     <Card.Body>
                         <Card.Title>{props.title}</Card.Title>
           
-                            <Link to={`/projectdetail/${props.id}`} className="stretched-link"></Link>   {/* has to be defined when project detail is ready */}                 
+                            <Link to={`/projectdetail/${props.id}`} className="stretched-link"></Link>               
                     </Card.Body>
                     
             </Card>

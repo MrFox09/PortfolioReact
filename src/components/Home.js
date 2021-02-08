@@ -26,7 +26,7 @@ function Home () {
                     </Col>
                     <Col className= "text-white">
                         <p> Hy! I am 34 years old and a lifelong learner. Currently studying at Treehouse to become a better software developer. My passions are technology and sport, when I am not coding, I do some sports like hiking or climbing and much more. </p>
-                        <Link to="/"  >Learn More →</Link>
+                        <Link to="/about"  >Learn More →</Link>
                         <br />
                         <Link to="/projects"  >Projects →</Link>
                     </Col>

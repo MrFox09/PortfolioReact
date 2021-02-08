@@ -19,7 +19,7 @@ function Projects () {
                 <Row >
                     
                     {
-                        projects.map(project => <Card key = {project.id} picture = {project.image_urls[0]} title = {project.project_name} id = {project.id} /> )
+                        projects.map(project => <Card key={project.id} picture = {project.image_urls[0]} title = {project.project_name} id = {project.id} /> )
                     }
                     
                 </Row>
