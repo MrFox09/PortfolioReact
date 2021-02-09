@@ -8,12 +8,11 @@ function Home () {
 
     return(
         <main role="main" className="bd-masthead"> 
-            <div className="jumbotron jumbotron-fluid  text-white" style={{ backgroundImage: "url(/pictures/pexels-anni-roenkae-2156881.jpg)" }}>
+            <div className="jumbotron jumbotron-fluid  text-white" style={{ backgroundImage: "url(/pictures/pexels-pixabay-247671.jpg)" }}>
                 <div className="container text-sm-center pt-5">
                     <h1 className="display-2">Christian Fuchs</h1>
                     <p className="lead">Web/Software Developer</p>        
-                    <div className="btn-group mt-4" role="group" aria-label="Callout Buttons">
-                    </div>
+
                 </div>
             </div>
         
