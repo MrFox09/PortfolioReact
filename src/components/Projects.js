@@ -14,7 +14,7 @@ function Projects () {
 
     return (
         
-            <Container className = 'projects pt-lg-2 pt-sm-4 text-white'>
+            <Container className = 'projects pt-lg-2 pt-sm-4 '>
                 <h2>PROJECTS</h2>
                 <Row >
                     

@@ -15,7 +15,7 @@ function ProjectDetail({match}) {
     return (
 
 
-        <Container  className= "text-white pt-5">
+        <Container  className= "detail pt-5">
             <Row>
                 <Col lg={8}>
                     <h2>{currentProject.project_name}</h2>

@@ -15,8 +15,7 @@ function Cards (props) {
         <Col lg={4} className = "cardContainer" >
             <Card
                 bg= 'dark'
-                key={props.id+1}
-                text='white'
+                key={props.id+1}               
                 style={{ width: '20rem' }}
                 className="mb-3"
             >        
