@@ -39,7 +39,7 @@ function ProjectDetail({match}) {
 
             <Carousel className= "pt-5">
                
-                <Carousel.Item interval={8000}>
+                <Carousel.Item interval={6000}>
                     <img
                     className="d-block w-100"
                     src={currentProject.image_urls[1]}
