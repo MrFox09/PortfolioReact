@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter, Route,Switch} from 'react-router-dom';
+import {withRouter} from 'react-router';
 
 //import components
 
@@ -13,7 +14,9 @@ import About from './components/About';
 import Contact from './components/Contact';
 
 
+// creates a the header component with the withRouter as a HOC to pass down match, location, history
 
+const HeaderWithRouter = withRouter(Header);
 
 function App() {
 
@@ -24,7 +27,7 @@ function App() {
     
       <div className ='wrapper'>
 
-        <Header />
+        <HeaderWithRouter />
 
         <Switch>
           

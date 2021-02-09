@@ -8,7 +8,7 @@ function About () {
 
     return(
 
-        <Container className = "pt-2 text-white">
+        <Container className = "pt-lg-2 pt-sm-4 about text-white">
         <h2>About me</h2>
             <Row>
                 <Col lg={8}>

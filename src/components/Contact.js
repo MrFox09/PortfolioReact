@@ -61,7 +61,7 @@ function Contact () {
 
 
     return (
-        <Container className = 'cards pt-2 text-white'>
+        <Container className = 'contact pt-lg-2 pt-sm-4 text-white'>
         <h2>Contact</h2>
             <Row>
                 <Col lg = {9}>
