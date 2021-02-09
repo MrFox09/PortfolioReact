@@ -20,8 +20,8 @@ function Home () {
        
             <Container>
                 <Row className = "about portfolio-me">
-                    <Col>
-                        <img src={"../pictures/me550x350px.jpg"} alt="me" width={550} height={350} />
+                    <Col >
+                        <img className = 'image' src={"../pictures/meNew350x350px.jpg"} alt="me" width={350}  />
                     </Col>
                     <Col>
                         <p> Hy! I am 34 years old and a lifelong learner. Currently I work for Quindoo, a IT Company and studying at Treehouse to become a better software developer. My passions are technology and sport, when I am not coding, I do some sports like hiking or climbing and much more. </p>
