@@ -13,7 +13,7 @@ function About () {
             <Row>
                 <Col lg={8}>
                     <h3>Christian Fuchs</h3>
-                    <p className= "pt-2 fs-3">Software Developer</p>
+                    <p className= "pt-2 fs-3">Web/Software Developer</p>
                     <img  src={"../pictures/me550x350px.jpg"} alt= "Picture of me" width="550" height="350"/>
                     <p className= "pt-4 fs-2">I am passioned about to solve problems. It's about finding the most elegant way to write a line of code which fits best into a progression, I love the challenge of finding a way and discovering solutions. Therefore, for me it’s very exciting to create something new.</p>
                     <p className= "pt-4 fs-2">My name is Christian Fuchs, I live in Austria. Currently I work for Quindoo a IT Company as a Junior Business Consultant. I am responsible for creating new Web Apps and Application management, according to business specifications. In my spare time I am studying at Treehouse to strengthen my software developer skills.  </p>
