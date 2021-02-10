@@ -8,7 +8,7 @@ function Home () {
 
     return(
         <main role="main" className="bd-masthead"> 
-            <div className="jumbotron jumbotron-fluid  text-white" style={{ backgroundImage: "url(/pictures/pexels-pixabay-247671forWeb.jpg)" }}>
+            <div className="jumbotron jumbotron-fluid  text-white" style={{ backgroundImage: "url(/pictures/pexels-pixabay.jpg)" }}>
                 <div className="container text-sm-center pt-5 fw-bolder">
                     <h1 className="display-2">Christian Fuchs</h1>
                     <p className="lead">Web/Software Developer</p>        
