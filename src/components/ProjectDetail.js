@@ -9,6 +9,7 @@ import '../css/ProjectDetail.css';
 function ProjectDetail({match}) {
 
     const id = match.params.id;
+    
     const currentProject = {...projects[id]};
 
 

@@ -14,7 +14,7 @@ function About () {
                 <Col lg={8}>
                     <h3>Christian Fuchs</h3>
                     <p className= "pt-2 fs-3">Web/Software Developer</p>
-                    <img  src={"../pictures/me550x350px.jpg"} alt= "Picture of me" width="550" height="350"/>
+                    <img  src={"../pictures/me550x350px.jpg"} alt= "me" width="550" height="350"/>
                     <p className= "pt-4 fs-2">I am passioned about to solve problems. It's about finding the most elegant way to write a line of code which fits best into a progression, I love the challenge of finding a way and discovering solutions. Therefore, for me it’s very exciting to create something new.</p>
                     <p className= "pt-4 fs-2">My name is Christian Fuchs, I live in Austria. Currently I work for Quindoo a IT Company as a Junior Business Consultant. I am responsible for creating new Web Apps and Application management, according to business specifications. In my spare time I am studying at Treehouse to strengthen my software developer skills.  </p>
                     <p className= "pt-4 fs-2">Back then, when I was a 10 year old kid, it was always fascinating how PCs and the software work. But couldn't find it out what's' going on there. In my early 20's, when I was doing my Matura (A-Level) with a focus on media informatics, I knew that one day I want to work creatively with my PC. I am convinced that my future lies in this profession. Therefore I spend the most of my freetime to get this done.</p>
