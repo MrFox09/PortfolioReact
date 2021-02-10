@@ -12,11 +12,33 @@ import Projects from './components/Projects';
 import ProjectDetail from './components/ProjectDetail';
 import About from './components/About';
 import Contact from './components/Contact';
+import NotFound from './components/NotFound';
 
 
 // creates a the header component with the withRouter as a HOC to pass down match, location, history
 
 const HeaderWithRouter = withRouter(Header);
+
+//hoc to wrap the contents into a content div
+
+function withContentDiv(Component) {
+  return class extends React.Component {
+    render() { 
+      
+      return <div className= "content"> <Component {...this.props} /> </div>;
+    }
+  }
+};
+
+// Components with Content div
+
+const HomeWithContent = withContentDiv(Home);
+const ProjectsWithContent = withContentDiv(Projects);
+const ProjectDetailWithContent = withContentDiv(ProjectDetail);
+const AboutWithContent = withContentDiv(About);
+const ContactWithContent = withContentDiv(Contact);
+const NotFoundWithContent = withContentDiv(NotFound);
+
 
 function App() {
 
@@ -29,19 +51,15 @@ function App() {
 
         <HeaderWithRouter />
 
-        <Switch>
-          
-          <div className='content'>
+        <Switch>          
 
-            <Route exact path="/" component={Home} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/projectdetail/:id" component={ProjectDetail} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-            
-          </div>
-          
-
+            <Route exact path="/" component={HomeWithContent} />
+            <Route path="/projects" component={ProjectsWithContent} />
+            <Route path="/projectdetail/:id" component={ProjectDetailWithContent} />
+            <Route path="/about" component={AboutWithContent} />
+            <Route path="/contact" component={ContactWithContent} />
+            <Route component={NotFoundWithContent} />       
+         
         </Switch>
 
         <Footer />

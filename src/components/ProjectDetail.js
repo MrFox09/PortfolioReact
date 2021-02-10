@@ -9,7 +9,7 @@ import '../css/ProjectDetail.css';
 function ProjectDetail({match}) {
 
     const id = match.params.id;
-    
+
     const currentProject = {...projects[id]};
 
 
@@ -32,9 +32,9 @@ function ProjectDetail({match}) {
  
                 </ul>
 
-                <a href={currentProject.live_link} role= "button" target="_blank"  className="btn btn-light custom-btn">DEMO</a>
+                <a href={currentProject.live_link} role= "button" target="_blank" rel= "noreferrer" className="btn btn-light custom-btn">DEMO</a>
                 
-                <a href={currentProject.github_link} role= "button" target="_blank" className="btn btn-light custom-btn">GITHUB</a>
+                <a href={currentProject.github_link} role= "button" target="_blank" rel= "noreferrer" className="btn btn-light custom-btn">GITHUB</a>
                 </Col>
             </Row>
 

@@ -13,9 +13,9 @@ function Footer () {
           <div className="row ml-5  ">
             <div className="col mt-1">
               <p className="text-muted mb-0 pb-0 bold-text "> 
-                <a href="https://www.facebook.com/christian.fox.796/" target="_blank" className="text-decoration-none "><span className="mx-2"><i className="fa fa-facebook" aria-hidden="true" /></span> </a>
-                <a href="https://www.linkedin.com/in/christian-fuchs-2925401a8/" target="_blank" className="text-decoration-none "><span className="mx-2"><i className="fa fa-linkedin-square" aria-hidden="true" /></span> </a> 
-                <a href="https://www.instagram.com/chrisfoxxxx/" target="_blank" className="text-decoration-none "><span className="mx-2"><i className="fa fa-instagram" aria-hidden="true" /></span></a>
+                <a href="https://www.facebook.com/christian.fox.796/" target="_blank" rel= "noreferrer" className="text-decoration-none "><span className="mx-2"><i className="fa fa-facebook" aria-hidden="true" /></span> </a>
+                <a href="https://www.linkedin.com/in/christian-fuchs-2925401a8/" target="_blank" rel= "noreferrer" className="text-decoration-none "><span className="mx-2"><i className="fa fa-linkedin-square" aria-hidden="true" /></span> </a> 
+                <a href="https://www.instagram.com/chrisfoxxxx/" target="_blank" rel= "noreferrer" className="text-decoration-none "><span className="mx-2"><i className="fa fa-instagram" aria-hidden="true" /></span></a>
               </p>
               <small className="rights"><span>©</span> CF </small>
             </div>

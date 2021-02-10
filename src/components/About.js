@@ -46,9 +46,9 @@ function About () {
                             <li>Linux Terminal, Powershell</li>
                         </ul>
 
-                    <a href="https://www.linkedin.com/in/christian-fuchs-2925401a8/"  role= "button" target="_blank"  className="btn btn-light custom-btn">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/christian-fuchs-2925401a8/"  role= "button" target="_blank" rel= "noreferrer" className="btn btn-light custom-btn">LinkedIn</a>
                 
-                    <a href="https://www.github.com/MrFox09" role= "button" target="_blank" className="btn btn-light custom-btn">GITHUB</a>
+                    <a href="https://www.github.com/MrFox09" role= "button" target="_blank" rel= "noreferrer" className="btn btn-light custom-btn">GITHUB</a>
 
                 </Col>
             </Row>
