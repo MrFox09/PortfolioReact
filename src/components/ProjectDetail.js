@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container,Row,Col,Carousel} from 'react-bootstrap';
-import {projects} from "../data.json";
+import {projects} from "./data/data.json";
 import '../css/ProjectDetail.css';
 
 
